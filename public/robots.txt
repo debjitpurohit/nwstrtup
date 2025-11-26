@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://wannagonow.vercel.app/sitemap.xml
