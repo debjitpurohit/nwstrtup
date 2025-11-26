@@ -32,7 +32,7 @@ export default function Footer() {
             </div>
 
             {/* Bottom Copyright */}
-            <div className="mt-8 text-center text-sm text-white">
+            <div className="mt-4 text-center text-sm text-white">
                 © 2026 Made with ❤️ by WannaGonoW. All rights reserved.
             </div>
         </footer>

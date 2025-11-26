@@ -13,7 +13,7 @@ const Home = () => {
   const [isDisabled, setIsDisabled] = useState(true); 
   return (
     <div
-      className="relative w-full h-[60vh] sm:h-[70vh] md:h-[90vh] bg-cover bg-center"
+      className="relative w-full h-[74vh] sm:h-[80vh] md:h-[90vh] bg-cover bg-center"
       style={{
         backgroundImage: `url(${logo})`,
         filter: "blur(0px)",

@@ -4,7 +4,7 @@ import logo from "../assets/safe.png"
 
 export default function SafetyPage() {
     return (
-        <div className="w-full flex justify-center px-4 py-16 -mb-20">
+        <div className="w-full flex justify-center px-4 py-16 ">
             {/* Clean container (NO blur, NO background color) */}
             <div className="p-6 max-w-6xl w-full">
                 <div className="flex flex-col lg:flex-row items-center gap-6">

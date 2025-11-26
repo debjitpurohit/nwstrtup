@@ -44,7 +44,7 @@ export default function ServicesPage() {
   ];
 
   return (
-    <div className="h-[55vh] pt-20 px-6">
+    <div className="h-[65vh] pt-20 px-6">
       <h1 className="text-3xl font-bold mb-6 text-center text-amber-950 font-sans">
         Our Services
         <div className="flex justify-center mt-1">

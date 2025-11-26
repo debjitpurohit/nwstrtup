@@ -104,7 +104,7 @@ export default function CombinedPage() {
           </div>
 
           {/* Right Image */}
-          <div className="lg:w-1/2 flex justify-center -mt-20 -mr-20">
+          <div className="lg:w-1/2 flex justify-center -mt-10 -mr-10">
             <img
               src={logo}
               alt="Driver demo"

@@ -108,7 +108,7 @@ export default function DownloadBanner() {
       className={`
         fixed bottom-0 left-0 w-full bg-orange-600 text-white z-50 shadow-xl 
         transition-all duration-500 flex flex-col rounded-t-2xl
-        ${collapsed ? "h-6" : "h-20"}   /* Correct height sizes */
+        ${collapsed ? "h-6.5" : "h-20"}   /* Correct height sizes */
       `}
     >
       {/* Collapse / Expand Button */}

@@ -35,9 +35,9 @@ const Navbar = () => {
           (diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
         );
         const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
-        const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+        // const seconds = Math.floor((diff % (1000 * 60)) / 1000);
 
-        setTimeLeft(`${days}d ${hours}h ${minutes}m ${seconds}s`);
+        setTimeLeft(`${days}d ${hours}h ${minutes}m`);
       }
     }, 1000);
 
