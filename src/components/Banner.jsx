@@ -149,11 +149,11 @@ export default function DownloadBanner() {
               className="
                 bg-white text-orange-600 font-semibold 
                 text-xs sm:text-sm 
-                px-3 py-1.5 sm:px-4 sm:py-2 
+                px-1 py-2 sm:px-4 sm:py-2 
                 rounded-lg shadow hover:bg-gray-100 transition
               "
             >
-              Get Now →
+              Get Now→
             </button>
 
             {/* CANCEL BUTTON */}

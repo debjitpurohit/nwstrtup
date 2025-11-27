@@ -16,7 +16,7 @@ const Navbar = () => {
   const [timeLeft, setTimeLeft] = useState("");
   const [isExpired, setIsExpired] = useState(false);
 
-  const targetDate = new Date("December 30, 2025 00:00:00").getTime();
+  const targetDate = new Date("December 31, 2025 11:59:00").getTime();
   const playStoreURL = "https://play.google.com/store/apps/details?id=yourAppId";
 
 
@@ -54,8 +54,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto flex flex-wrap items-center justify-between p-4">
         {/* Logo */}
         <a href="/" className="flex items-center space-x-3">
-          <img src={logo} onClick={() => scrollToSection("home")} className="h-10 sm:h-8 md:h-10 w-auto" alt="Logo" />
-          <span className="hidden xs:inline text-sm sm:text-xl md:text-xl font-semibold text-black">WannaGonoW</span>
+          <img src={logo} onClick={() => scrollToSection("home")} className="h-6 sm:h-8 md:h-10 w-auto mt-1" alt="Logo" />
         </a>
 
         {/* Buttons */}
@@ -63,7 +62,7 @@ const Navbar = () => {
           <button
             onClick={handleClick}
             disabled={!isExpired}
-            className={`text-white font-small rounded-md text-sm  px-1 py-2 focus:outline-none focus:ring-2 
+            className={`text-white font-small rounded-lg text-sm  px-1 py-0.5 h-6.5 mt-2 -mr-1 focus:outline-none  focus:ring-2 
             ${isExpired
                 ? "bg-green-500 hover:bg-green-600 focus:ring-green-400"
                 : "bg-orange-500 cursor-not-allowed"
