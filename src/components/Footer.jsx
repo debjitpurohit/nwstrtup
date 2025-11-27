@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/wgwlogo2.png";
+import logo from "../assets/wgwlogo2.webp";
 import { FaWhatsapp } from "react-icons/fa";
 
 export default function Footer() {

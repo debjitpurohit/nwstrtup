@@ -2,7 +2,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 // import "./Navbar.css"; // We'll create the glass effect styles here
-import logo from "../assets/wgwlogo2.png"; // Replace with your logo path
+import logo from "../assets/wgwlogo2.webp"; // Replace with your logo path
 
 const Navbar = () => {
   const scrollToSection = (id) => {

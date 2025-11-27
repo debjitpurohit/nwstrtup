@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/safe.png"
+import logo from "../assets/safe.webp"
 
 
 export default function SafetyPage() {

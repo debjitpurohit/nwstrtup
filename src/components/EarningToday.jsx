@@ -34,8 +34,8 @@
 // }
 
 import React from "react";
-import logo from "../assets/grp.jpg";
-import logo2 from "../assets/grp2.png";
+import logo from "../assets/grp.webp";
+import logo2 from "../assets/grp2.webp";
 
 export default function CombinedPage() {
   return (

@@ -1,7 +1,7 @@
 
 
 import React, { useState } from 'react';
-import logo from "../assets/MAP2.png";
+import logo from "../assets/MAP2.webp";
 import { MapPin, Navigation } from "lucide-react";
 import ServicesPage from "./Service";
 import StartEarning from "./EarningToday";
