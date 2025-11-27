@@ -33,7 +33,7 @@ export default function Footer() {
 
             {/* Bottom Copyright */}
             <div className="mt-4 text-center text-sm text-white">
-                © 2026 Made with ❤️ by WannaGonoW. All rights reserved.
+                © 2025 WannaGonoW — Made with ❤️. Fast & Affordable Ride Booking Service. All rights reserved.
             </div>
         </footer>
     );
