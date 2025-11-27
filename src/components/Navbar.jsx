@@ -54,7 +54,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto flex flex-wrap items-center justify-between p-4">
         {/* Logo */}
         <a href="/" className="flex items-center space-x-3">
-          <img src={logo} onClick={() => scrollToSection("home")} className="h-6 sm:h-8 md:h-10 w-auto mt-1" alt="Logo" />
+          <img src={logo} onClick={() => scrollToSection("home")} className="h-7 sm:h-8 md:h-10 w-auto mt-1" alt="Logo" />
         </a>
 
         {/* Buttons */}
@@ -62,7 +62,7 @@ const Navbar = () => {
           <button
             onClick={handleClick}
             disabled={!isExpired}
-            className={`text-white font-small rounded-lg text-sm  px-1 py-0.5 h-6.5 mt-2 -mr-1 focus:outline-none  focus:ring-2 
+            className={`text-white font-small rounded-lg text-sm  px-1 py-0.5 h-6.5 mt-2  focus:outline-none  focus:ring-2 
             ${isExpired
                 ? "bg-green-500 hover:bg-green-600 focus:ring-green-400"
                 : "bg-orange-500 cursor-not-allowed"
